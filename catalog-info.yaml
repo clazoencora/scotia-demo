@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: scotia-demo-app
+  title: scotia-demo-app
+  annotations:
+    circleci.com/project-slug: github/scotia/scotia-demo-app
+    github.com/project-slug: scotia/scotia-demo-app
+    sonarqube.org/project-key: scotia_scotia-demo-app
+  tags:
+    - spring-boot
+    - java
+    - maven
+spec:
+  type: service
+  owner: christian.lazo@encora.com
+  lifecycle: experimental
